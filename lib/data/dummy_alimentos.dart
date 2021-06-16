@@ -1,0 +1,52 @@
+import 'package:prj_alimentos_2/models/alimento.dart';
+
+const DUMMY_ALIMENTOS ={
+  '1': const Alimento(
+    id:'1',
+    nome:'Bolacha',
+    marca: 'Maria',
+    caloria: '144 Kcal',
+    carboidrato: '23',
+    proteina: '2,6',
+    gordura: '2,9',
+    tamanho: '30',
+    unidade: 'gramas',
+    barcode: '123'
+  ),
+  '2': const Alimento(
+    id:'2',
+    nome:'Doce de leite',
+    marca: 'Frimesa',
+    caloria: '67 kcal',
+    carboidrato: '12',
+    proteina: '1,5',
+    gordura: '1,4',
+    tamanho: '20',
+    unidade: 'gramas',
+    barcode: '123',
+  ),
+  '3': const Alimento(
+    id:'3',
+    nome:'Peito de frango grelhado',
+    marca: 'Seara',
+    caloria: '195 kcal',
+    carboidrato: '0',
+    proteina: '29,55',
+    gordura: '7,72',
+    tamanho: '100',
+    unidade: 'gramas',
+    barcode: '123',
+  ),
+  '4': const Alimento(
+    id:'4',
+    nome:'Pão de forma',
+    marca: 'Farias',
+    caloria: '124 kcal',
+    carboidrato: '27',
+    proteina: '4',
+    gordura: '0,28',
+    tamanho: '2',
+    unidade: 'fatias',
+    barcode: '123',
+  ),
+};
